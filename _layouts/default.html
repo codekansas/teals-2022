@@ -7,9 +7,6 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:url" content="{{ base_url }}{{ page.url }}">
 
-  <!-- For saving page to mobile device -->
-  <link rel="manifest" href="{{ site.baseurl }}/assets/manifest.json" />
-
   <!-- Viewport disables mobile zooming -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -27,6 +24,7 @@
   <div>
     {{ content }}
   </div>
+  {% include links.html %}
 </body>
 
 </html>

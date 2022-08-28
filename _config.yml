@@ -30,3 +30,6 @@ paginate_path:    "/posts/:num/"
 
 plugins:
   - jekyll-paginate
+
+# Show future dates.
+future: true
