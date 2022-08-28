@@ -1,0 +1,16 @@
+/* -------------- *
+ * Font variables *
+ * -------------- */
+
+$base-font-size: 1em;
+$base-font-weight: 350;
+$base-line-height: 1.5;
+$highlight-color: rgb(79, 193, 104);
+$highlight-color-transparent: transparentize($highlight-color, 0.2);
+$font-color: rgb(18, 19, 20);
+
+/* ---------------- *
+  * Layout variables *
+  * ---------------- */
+
+$max-width: 60em;

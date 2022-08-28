@@ -1,0 +1,32 @@
+title:            AP Computer Science Principles 2022-23
+
+owner:            Benjamin Bolte
+email:            public@bolte.cc
+
+# Sass
+sass:
+  sass_dir:       assets/css/sass
+
+# Some CDN-hosted scripts
+cdn:
+  bootstrap-css:  https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+  katex:          https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+  mathjax:        https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
+# Other
+markdown:         kramdown
+kramdown:
+  math_engine_opts:
+    preview:      true
+    preview_as_code: true
+permalink:        :year-:month-:day-:title
+
+katex:
+  rendering_options:
+    throw_error:  true
+
+paginate:         10
+paginate_path:    "/posts/:num/"
+
+plugins:
+  - jekyll-paginate
